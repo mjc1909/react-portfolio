@@ -10,6 +10,7 @@ import {
     FaUserTie,
     FaBoltLightning,
     FaBurger,
+    FaBars,
 } from 'react-icons/fa6';
 
 export const icons = {
@@ -23,5 +24,7 @@ export const icons = {
     'FaWrench' : <FaWrench  />,
     'FaUserTie' : <FaUserTie />,
     'FaBoltLightning' : <FaBoltLightning  />,
-    'FaBurger' : <FaBurger />
+    'FaBurger' : <FaBurger />,
+    'FaBars' : <FaBars />
+
 };

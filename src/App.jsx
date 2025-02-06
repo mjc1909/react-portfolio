@@ -2,9 +2,7 @@ import { useRoutes } from "react-router-dom";
 // Common Pages.
 import HomePage from "./pages/home/HomePage";
 import Navigation from "./components/Navigation/Navigation";
-import SubscribersPage from "./pages/subscribers/SubscribersPage";
-import SubscriberView from "./components/Subscribers/SubscriberView";
-import SubscribersBackofficePage from "./pages/backoffice/subscribers/SubscribersPage";
+import ProjectsPage from "./pages/projects/ProjectsPage";
 
 // Application
 const App = () => {
@@ -18,21 +16,10 @@ const App = () => {
               element : <HomePage></HomePage>
             },
             {
-              path: "/subscribers",
-              element : <SubscribersPage></SubscribersPage>
+              path: "/projects",
+              element : <ProjectsPage></ProjectsPage>
             },
-            {
-              path: "/subscribers/:id",
-              element : <SubscriberView></SubscriberView>
-            },
-            {
-              path: "/backoffice/subscribers",
-              element : <SubscribersBackofficePage></SubscribersBackofficePage>
-            },
-            {
-              path: "/users",
-              element : <div>USERS</div>
-            },
+            
             {
               path: "*",
               element : <div>NOT FOUND</div>

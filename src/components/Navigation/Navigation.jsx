@@ -19,22 +19,23 @@ const Navigation = () => {
         <div className={styles.navigation}>
             {/* <a href="/">FORSIDE</a> */}
 
-            <div>
+            <div className={styles.logo}>
 
-                LOGO
+                <a href="/">LOGO</a>
 
             </div>
             <div className={styles.actions}>
 
                 <div className={`${styles.nav} ${isOpen ? styles.open : ''}` }>
                     <NavLink to={"/"} className={({ isActive }) => (isActive ? styles.active : "")}>Home</NavLink>
-                    <NavLink to={"/subscribers"} className={({ isActive }) => (isActive ? styles.active : "")}>Subscribers</NavLink>
-                    <NavLink to={"/users"} className={({ isActive }) => (isActive ? styles.active : "")}>Users</NavLink>
-                    <NavLink to={"/backoffice/subscribers"} className={({ isActive }) => (isActive ? styles.active : "")}>Backoffice Subscribers</NavLink>
+                    <NavLink to={"/projects"} className={({ isActive }) => (isActive ? styles.active : "")}>Projekter</NavLink>
+                    <NavLink to={"/"} className={({ isActive }) => (isActive ? styles.active : "")}>Om</NavLink>
+                    <NavLink to={"/"} className={({ isActive }) => (isActive ? styles.active : "")}>Kontakt</NavLink>
+                    
                 </div>
                 
                 <div onClick={toggleNavigation}>
-                    {icons["FaBurger"]}
+                    {icons["FaBars"]}
                 </div>
 
             

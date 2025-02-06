@@ -1,0 +1,54 @@
+.headertextboxrow{
+    max-width: 1180px;
+    margin: 0 auto;
+
+}
+
+@media(max-width: 1340px) {
+.headertextboxrow {
+    max-width: 1100px;
+}
+}
+
+@media(max-width: 1240px) {
+.headertextboxrow {
+    padding: 0 6rem;
+}
+}
+
+@media(max-width: 600px) {
+.headertextboxrow {
+    padding: 0 3rem;
+}
+}
+
+@media(max-width: 600px) {
+.headertextboxrow {
+    padding: 0 2rem;
+}
+}
+
+.h1{
+font-family: 'Bodoni Moda';
+font-size: 48px;
+font-weight: 700;
+margin-top: 200px;
+}
+
+@media(max-width: 900px) {
+    .h1{
+        font-size: 36px;
+        margin-top: 150px;
+    }
+}
+
+.btncontact{
+background-color: transparent;
+border: 1px solid white;
+color: white;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: 600;
+margin-top: 20px;
+}

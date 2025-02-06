@@ -12,10 +12,14 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import '@fontsource/roboto/900.css';
+// Supports weights 400-900
+import '@fontsource-variable/bodoni-moda';
 
 const fonts = {
     tillium: "Titillium Web, sans-serif",
     roboto: "Roboto, sans-serif",
+    bodoni: "Bodoni Moda, sans-serif",
+
 };
 
 export default fonts;

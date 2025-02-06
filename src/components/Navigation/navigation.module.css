@@ -1,6 +1,6 @@
 .navigation {
 
-    background-color: red;
+    background-color: transparent;
     padding : 20px;
     
     display: flex;
@@ -15,14 +15,19 @@
 
     }
 
+    .logo{
+        font-size: 24px;
+        font-family: Bodonimoda;
+    }
+
     svg {
 
         color: #fff;
-        font-size : 60px;
+        font-size : 30px;
         cursor: pointer;
         
         &:hover {
-            color : pink;
+            color : rgb(207, 207, 207);
         }
 
     }
@@ -46,8 +51,5 @@
         }
     }
 
-    .active {
-        color : black;
-        background-color: #fff;
-    }
+    
 }
