@@ -9,8 +9,13 @@ import {
     FaWrench,
     FaUserTie,
     FaBoltLightning,
-    FaBurger,
+    FaHtml5,
     FaBars,
+    FaReact,
+    FaCss3,
+    FaJs,
+    FaFigma,
+    FaGithub
 } from 'react-icons/fa6';
 
 export const icons = {
@@ -24,7 +29,14 @@ export const icons = {
     'FaWrench' : <FaWrench  />,
     'FaUserTie' : <FaUserTie />,
     'FaBoltLightning' : <FaBoltLightning  />,
-    'FaBurger' : <FaBurger />,
-    'FaBars' : <FaBars />
+    'FaHtml5' : <FaHtml5 />,
+    'FaBars' : <FaBars />,
+    'FaReact' : <FaReact />,
+    'FaCss3' : <FaCss3 />,
+    'FaJs' : <FaJs />,
+    'FaFigma' : <FaFigma />,
+    'FaGithub' : <FaGithub />
+
+
 
 };

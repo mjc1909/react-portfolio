@@ -1,3 +1,14 @@
+.header{
+    height: 100vh;
+    color: #242038;
+    overflow-x: hidden;
+    background-color: #CDCDCD;
+  /*background-image: url(/public/yihan-wang-4teb0ryKW3M-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;*/
+}
+
 .headertextboxrow{
     max-width: 1180px;
     margin: 0 auto;
@@ -32,23 +43,57 @@
 font-family: 'Bodoni Moda';
 font-size: 48px;
 font-weight: 700;
-margin-top: 200px;
+margin-top: 200px;    
+display: inline-block;
+    
+
 }
+
 
 @media(max-width: 900px) {
     .h1{
-        font-size: 36px;
+        font-size: 32px;
         margin-top: 150px;
+    }
+
+    .pfp{
+        display: none;
     }
 }
 
 .btncontact{
 background-color: transparent;
-border: 1px solid white;
-color: white;
+background-color:#242038;
+color: #CDCDCD;
 padding: 10px 20px;
-border-radius: 5px;
 text-decoration: none;
 font-weight: 600;
 margin-top: 20px;
+border: none;
+}
+
+.imagecontainer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+.pfp{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+@media(max-width: 600px) {
+    .imagecontainer{
+        top: 80%;
+        left: 25%;
+    }
+
+    .pfp{
+        width: 200px;
+        height: 200px;
+    }
 }

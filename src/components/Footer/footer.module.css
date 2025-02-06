@@ -1,0 +1,24 @@
+.footer{
+    background-color: #242038;
+    color: #CDCDCD;
+    text-align: center;
+    padding: 10px;
+   display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-social-links {
+    
+    
+}
+
+.footersociallinkitem{
+    list-style: none;
+}
+
+.icons{
+   color:#CDCDCD;
+   font-size: 40px;
+}
+

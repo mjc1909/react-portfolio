@@ -3,6 +3,7 @@ import { useRoutes } from "react-router-dom";
 import HomePage from "./pages/home/HomePage";
 import Navigation from "./components/Navigation/Navigation";
 import ProjectsPage from "./pages/projects/ProjectsPage";
+import Footer from "./components/Footer/Footer";
 
 // Application
 const App = () => {
@@ -17,6 +18,14 @@ const App = () => {
             },
             {
               path: "/projects",
+              element : <ProjectsPage></ProjectsPage>
+            },
+            {
+              path: "/about",
+              element : <ProjectsPage></ProjectsPage>
+            },
+            {
+              path: "/contact",
               element : <ProjectsPage></ProjectsPage>
             },
             
@@ -36,6 +45,7 @@ const App = () => {
             {routes}
         </div>
        {/* GLOBAL FOOTER */}
+       <Footer></Footer>
     </div>
   </>;
 

@@ -1,12 +1,11 @@
 .navigation {
-
-    background-color: transparent;
+    background-color: #242038;
     padding : 20px;
     
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
     .actions {
         display: flex;
         justify-content: space-between;
@@ -18,10 +17,11 @@
     .logo{
         font-size: 24px;
         font-family: Bodonimoda;
+        color: white;
     }
 
     svg {
-
+        display: none;
         color: #fff;
         font-size : 30px;
         cursor: pointer;
@@ -33,7 +33,7 @@
     }
     .nav {
 
-        display : none;
+        display : block;
 
         &.open {
             display: block;
@@ -42,9 +42,9 @@
     }
 
     a {
-        color : white;
+        color : #CDCDCD;
         text-decoration: none;
-        margin : 0 5px;
+        margin : 0 20px;
 
         &:hover {
             text-decoration: underline;
@@ -53,3 +53,15 @@
 
     
 }
+.active{
+    display: none;
+}
+
+@media(max-width: 600px) {
+    .nav {
+        display: none;
+    }
+    svg{
+        display: block;
+    }
+    }
