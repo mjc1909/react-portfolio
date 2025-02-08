@@ -79,6 +79,12 @@ h3{
     margin-bottom: 10px;
     color: #CDCDCD;
     font-weight: 600;
+
+    &:hover{
+        background-color: #CDCDCD;
+        color: #242038;
+        transition: 1s;
+    }
 }
 
 

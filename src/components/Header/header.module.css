@@ -1,12 +1,11 @@
 .header{
     height: 100vh;
-    color: #242038;
+    color: #eeeeee;
     overflow-x: hidden;
-    background-color: #CDCDCD;
-  /*background-image: url(/public/yihan-wang-4teb0ryKW3M-unsplash.jpg);
+  background-image: url(/public/yihan-wang-4teb0ryKW3M-unsplash-2.png);
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;*/
+  background-position: center;
 }
 
 .headertextboxrow{
@@ -70,6 +69,12 @@ text-decoration: none;
 font-weight: 600;
 margin-top: 20px;
 border: none;
+
+&:hover{
+    background-color: #CDCDCD;
+    color: #242038;
+    transition: 1s;
+}
 }
 
 .imagecontainer{
@@ -84,6 +89,7 @@ border: none;
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    display: none;
 }
 
 @media(max-width: 600px) {
